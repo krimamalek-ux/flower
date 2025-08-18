@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #E6E6FA;
+}
+.core {
+    background-image: url(https://marketplace.canva.com/EAGmgBFDb1g/1/0/1131w/canva-purple-and-white-floral-watercolor-background-poster-_d-B4eEJFiw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.established {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.greeting {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.description {
+  color: darkred;
+  font-size: medium;
+}
+.call-to-action {
+    color: darkred;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.flower-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+.caption {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  grid-template-rows: auto auto;  /* two rows */
+  gap: 20px;                      /* space between items */
+  width: 600px;                   /* adjust width */
+  margin: 0 auto;                 /* center grid */
+  text-align: center;             /* center text under images */
+}
+
+.grid-item img {
+  height: auto;
+  border-radius: 10px;
+}
+
+.grid-item p {
+  margin-top: 8px;
+  font-weight: bold;
+}
