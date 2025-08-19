@@ -77,3 +77,29 @@ body {
   margin-top: 8px;
   font-weight: bold;
 }
+.marquee-container {
+  width: 100%;          /* full width or adjust as needed */
+  overflow: hidden;     /* hide overflowing text */
+  background-color: transparent; /* optional background */
+  border: none;    /* optional border */
+  margin-top: 10px; /* space above marquee */
+  margin-bottom: 10px;
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;    /* prevent text from wrapping */
+  padding-left: 100%;     /* start from right */
+  animation: scrollOnce 5s linear forwards; /* scroll animation */
+  font-size: 20px;       /* adjust font size */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* font style */
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes scrollOnce {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
