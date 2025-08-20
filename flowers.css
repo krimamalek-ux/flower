@@ -21,6 +21,7 @@ body {
     margin-bottom: 40px;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
 }
 .established {
     text-align: center;
@@ -36,11 +37,9 @@ body {
     text-align: center;
 }
 .description {
-  color: darkred;
   font-size: medium;
 }
 .call-to-action {
-    color: darkred;
     margin-bottom: 40px;
     margin-top: 40px;
     text-align: center;
@@ -103,3 +102,4 @@ body {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
+
