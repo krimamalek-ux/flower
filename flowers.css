@@ -29,13 +29,6 @@ body {
     margin-bottom: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.greeting {
-    font-size: 25px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
 .description {
   font-size: medium;
 }
@@ -102,4 +95,5 @@ body {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
+
 
