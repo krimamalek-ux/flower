@@ -31,6 +31,7 @@ body {
 }
 .description {
   font-size: medium;
+  margin-bottom: 40px;
 }
 .call-to-action {
     margin-bottom: 40px;
@@ -43,6 +44,13 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     margin-bottom: 40px;
+    transition: all 0.3s ease; /* smooth transition */
+    transform: scale(1.1);   /* zoom */
+}
+.flower-image:hover {
+    transform: scale(1.05); /* zoom in on hover */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.7); /* stronger shadow on hover */
+    transition: all 0.3s ease; /* smooth transition */
 }
 .caption {
     font-size: 20px;
@@ -95,5 +103,6 @@ body {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
+
 
 
